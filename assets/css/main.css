@@ -2953,12 +2953,13 @@
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
 		text-align: center;
+		margin:auto;
+		
 	}
 
-	#logo {
 
+	#logo {
 		width : 300px;
 	}
 
@@ -3051,16 +3052,15 @@
 				font-size: 13pt;
 			}
 
-		/* Banner */
-
-			#banner{
-				margin-top:-100px
+			#banner div{
+				height : 600px;
 			}
 
 			#logo{
-				
-				margin-bottom: -100px;
+				margin-top:50px
 			}
+
+
 
 	}
 
@@ -3085,14 +3085,19 @@
 			#banner {
 				background-attachment: scroll;
 			}
-			#banner {
-				margin-top:0px;
-				margin-bottom: 0px;
-			}
 
 				#banner h2 {
 					font-size: 3.5em;
 				}
+
+				#banner div{
+					height : 575px;
+				}
+
+			#logo{
+				margin-top:50px
+			}
+
 
 	}
 
@@ -3174,6 +3179,8 @@
 			#header {
 				display: none;
 			}
+
+			
 
 			
 
@@ -3269,6 +3276,14 @@
 
 				#banner p {
 					font-size: 1.25em;
+				}
+			
+				#banner div{
+					height : auto;
+				}
+
+				#logo{
+					margin-top:0px
 				}
 
 		/* Main */
