@@ -2958,18 +2958,10 @@
 		
 	}
 
-	#banner div{
-				height : 600px;
-			}
-
 	#logo{
-		margin-top:50px
-	}
-
-
-	#logo {
 		width : 300px;
 	}
+
 
 
 /* Main */
@@ -3047,6 +3039,17 @@
 		color: darkgrey;
 	}
 	
+
+@media screen and (max-width: 10000px) {
+	#banner div{
+		height : 700px;
+	}
+
+	#logo{
+		margin-top:100px
+	}
+
+}
 
 
 
@@ -3430,9 +3433,7 @@
 				padding: 5em 3em 4em 3em;
 			}
 
-			#banner span {
-				margin-top : 20px;
-			}
+
 
 
 		/* Main */
